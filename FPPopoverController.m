@@ -131,7 +131,7 @@
 #endif
         
         [_touchView setTouchedOutsideBlock:^{
-            [bself dismissPopoverAnimated:YES];
+            [self dismissPopoverAnimated:YES];
         }];
 
         self.contentSize = CGSizeMake(200, 300); //default size
